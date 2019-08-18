@@ -1,0 +1,10 @@
+
+node {
+    stage("checkout"){
+        git   "https://github.com/Zvezdoreel/working_with_jenkins"
+    }
+
+    stage("run t.py"){
+        bat "py hello_world.py"
+    }
+}
