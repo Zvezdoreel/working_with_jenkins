@@ -5,6 +5,6 @@ node {
     }
 
     stage("run t.py"){
-        bat "copy hello_world.py c:/users/user/desktop"
+        bat "copy hello_world.py c:\Users\User\Desktop"
     }
 }
